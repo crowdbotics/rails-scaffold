@@ -1,8 +1,12 @@
 @charset "utf-8";
 
-@import "normalize.css/normalize";
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
 
+/* Uncomment these and comment out bootstrap if you want to swap from bootstrap to bourbon/neat/bitters https://neat.bourbon.io/
+@import "normalize.css/normalize";
 @import "bourbon";
 @import "neat";
 
 @import "base/base";
+*/
