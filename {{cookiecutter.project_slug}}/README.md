@@ -6,7 +6,11 @@ After you have cloned this repo, run this command to install rbenv on your syste
 
 macOS: `brew install rbenv ruby-build`
 
-The following script sets up more dependencies if you need them (redis/postgres/git/etc.):
+Then run this to install postgres:
+
+macOS: `brew install postgresql`
+
+The following script sets up more dependencies if you need them (redis/git/etc.):
 [script]
 
 [script]: https://github.com/thoughtbot/laptop
